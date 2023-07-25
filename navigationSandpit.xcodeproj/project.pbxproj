@@ -11,9 +11,7 @@
 		B61997D02A1F8A5D00C8E6A9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61997CF2A1F8A5D00C8E6A9 /* ContentView.swift */; };
 		B61997D22A1F8A5E00C8E6A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B61997D12A1F8A5E00C8E6A9 /* Assets.xcassets */; };
 		B61997D52A1F8A5E00C8E6A9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B61997D42A1F8A5E00C8E6A9 /* Preview Assets.xcassets */; };
-		B661B4452A1F8B3B009EC970 /* SessionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B661B4442A1F8B3B009EC970 /* SessionsView.swift */; };
 		B67EA3902A239FBF005C97EF /* OceanListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67EA38F2A239FBF005C97EF /* OceanListView.swift */; };
-		B67EA3922A2419D3005C97EF /* OceanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67EA3912A2419D3005C97EF /* OceanView.swift */; };
 		B6E7BEBE2A5058B800168D59 /* OceanListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E7BEBD2A5058B800168D59 /* OceanListModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,9 +21,7 @@
 		B61997CF2A1F8A5D00C8E6A9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B61997D12A1F8A5E00C8E6A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B61997D42A1F8A5E00C8E6A9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		B661B4442A1F8B3B009EC970 /* SessionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionsView.swift; sourceTree = "<group>"; };
 		B67EA38F2A239FBF005C97EF /* OceanListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OceanListView.swift; sourceTree = "<group>"; };
-		B67EA3912A2419D3005C97EF /* OceanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OceanView.swift; sourceTree = "<group>"; };
 		B6E7BEBD2A5058B800168D59 /* OceanListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OceanListModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,11 +58,9 @@
 				B61997CD2A1F8A5D00C8E6A9 /* navigationSandpitApp.swift */,
 				B61997CF2A1F8A5D00C8E6A9 /* ContentView.swift */,
 				B67EA38F2A239FBF005C97EF /* OceanListView.swift */,
-				B67EA3912A2419D3005C97EF /* OceanView.swift */,
-				B661B4442A1F8B3B009EC970 /* SessionsView.swift */,
+				B6E7BEBD2A5058B800168D59 /* OceanListModel.swift */,
 				B61997D12A1F8A5E00C8E6A9 /* Assets.xcassets */,
 				B61997D32A1F8A5E00C8E6A9 /* Preview Content */,
-				B6E7BEBD2A5058B800168D59 /* OceanListModel.swift */,
 			);
 			path = navigationSandpit;
 			sourceTree = "<group>";
@@ -149,10 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B67EA3922A2419D3005C97EF /* OceanView.swift in Sources */,
 				B61997D02A1F8A5D00C8E6A9 /* ContentView.swift in Sources */,
 				B6E7BEBE2A5058B800168D59 /* OceanListModel.swift in Sources */,
-				B661B4452A1F8B3B009EC970 /* SessionsView.swift in Sources */,
 				B61997CE2A1F8A5D00C8E6A9 /* navigationSandpitApp.swift in Sources */,
 				B67EA3902A239FBF005C97EF /* OceanListView.swift in Sources */,
 			);

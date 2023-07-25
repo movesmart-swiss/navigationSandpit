@@ -1,28 +1,24 @@
 //
 //  ContentView.swift
-//  navigationSandpit
-//
-//  Created by Fred on 25.05.23.
 //
 
 import SwiftUI
 
 struct ContentView: View {
     
-    @State private var externalProperty: String = "Hello"
-   
+    @StateObject private var oceanListModel = OceanListModel()
+
     var body: some View {
         NavigationView {
             NavigationLink("Oceans") {
-                OceanListView(externalProperty: $externalProperty)
+                VStack {
+                    OceanListView(oceanListModel: oceanListModel)
+                }
+                .toolbar {
+                    EditButton()
+                }
             }
         }
     }
 
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
 }

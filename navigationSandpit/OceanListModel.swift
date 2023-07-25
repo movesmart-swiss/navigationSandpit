@@ -1,8 +1,5 @@
 //
 //  OceanListModel.swift
-//  navigationSandpit
-//
-//  Created by Fred on 01.07.23.
 //
 
 import Foundation
@@ -11,8 +8,6 @@ struct Ocean: Identifiable, Hashable {
     let name: String
     let id = UUID()
 }
-
-
 
 class OceanListModel: ObservableObject {
     @Published var oceans = [
@@ -24,11 +19,4 @@ class OceanListModel: ObservableObject {
     ]
     
     @Published var multiSelection = Set<Ocean>()
-    @Published var singleSelection: Ocean?
-    
-    func select(_ ocean: Ocean) {
-        singleSelection = ocean
-        multiSelection = [ocean]
-    }
-
 }
